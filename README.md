@@ -1,4 +1,5 @@
 # sobie-artifact
+index.ejs
 ```
 <%- include('partials/sobie-start') %>
     <%- include('partials/sobie-nav') %>
@@ -47,7 +48,7 @@
             <%- include('partials/sobie-footer') %>
                 <%- include('partials/sobie-end') %>
 ```
-
+sobie-history.ejs
 ```
 <div class="card">
     <div class="card-body">
@@ -66,7 +67,7 @@
     </div>
 </div>
 ```
-
+sobie-venue.ejs
 ```
 <div class="card">
   <div class="card-body">
