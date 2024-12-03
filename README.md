@@ -1,4 +1,4 @@
-# sobie-artifact
+# Jacob Sobie Artifact
 index.ejs
 ```
 <%- include('partials/sobie-start') %>
