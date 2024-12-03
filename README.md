@@ -75,9 +75,9 @@
             <%- include('partials/sobie-footer') %>
                 <%- include('partials/sobie-end') %>
 ```
-For the index.ejs, I added the two new sobie cards created, sobie-history.ejs and sobie-reseach.ejs
-then divided the sobie card into columns. This way the cards whould stack on top of each other and there
-whould not be as much negative space between them.
+For the index.ejs, I added the two new sobie cards created, sobie-history.ejs and sobie-reseach.ejs,
+then divided the sobie card into columns. This way the cards would stack on top of each other and there
+would be less negative space between them.
 - Original sobie-venue.ejs
 ```
 <div class="card">
@@ -350,7 +350,9 @@ whould not be as much negative space between them.
 </div>
 <!-- end hotelTravelModal -->
 ```
-
+For the sobie-venue.ejs, I created a new button to provide more information on the Sandestin resort. I based the new 
+button the already existing more hotelTravelModal button, and I got the the information, including the images, that would be displayed in 
+the more Sandestin button's pop-up from the old sobie website's code. I would always recomment re-using past and existing when possible.
 - Added sobie-history.ejs
 ```
 <div class="card">
@@ -370,3 +372,6 @@ whould not be as much negative space between them.
     </div>
 </div>
 ```
+Finally, I created two new sobie cards, sobie-history.ejs and sobie-reseach.ejs. All the infomation on these cards from 
+the old sobie website, and was not already included on the new sobie website. I wanted to make sure as much information
+from the old sobie website could be included on the new sobie website.
