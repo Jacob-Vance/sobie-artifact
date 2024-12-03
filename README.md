@@ -75,7 +75,9 @@ Updated index.ejs
             <%- include('partials/sobie-footer') %>
                 <%- include('partials/sobie-end') %>
 ```
-
+- For the index.ejs, I added the two new sobie cards created, sobie-history.ejs and sobie-reseach.ejs
+- then divided the sobie card into columns. This way the cards whould stack on top of each other and there
+- whould not be as much negative space between them.
 Original sobie-venue.ejs
 ```
 <div class="card">
