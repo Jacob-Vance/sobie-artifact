@@ -1,4 +1,4 @@
-# Jacob Sobie Artifact
+# Jacob's Sobie Artifact
 index.ejs
 ```
 <%- include('partials/sobie-start') %>
