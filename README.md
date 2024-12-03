@@ -1,5 +1,5 @@
 # Jacob's Sobie Artifact
-Original index.ejs
+- Original index.ejs
 ```
 <%- include('partials/sobie-start') %>
     <%- include('partials/sobie-nav') %>
@@ -31,7 +31,7 @@ Original index.ejs
 <%- include('partials/sobie-start') %>
 <%- include('partials/sobie-nav') %>
 ```
-Updated index.ejs
+- Updated index.ejs
 ```
  <%- include('sobieCards/sobie-alert') %>
             <div class="row">
@@ -75,10 +75,10 @@ Updated index.ejs
             <%- include('partials/sobie-footer') %>
                 <%- include('partials/sobie-end') %>
 ```
-- For the index.ejs, I added the two new sobie cards created, sobie-history.ejs and sobie-reseach.ejs
-- then divided the sobie card into columns. This way the cards whould stack on top of each other and there
-- whould not be as much negative space between them.
-Original sobie-venue.ejs
+For the index.ejs, I added the two new sobie cards created, sobie-history.ejs and sobie-reseach.ejs
+then divided the sobie card into columns. This way the cards whould stack on top of each other and there
+whould not be as much negative space between them.
+- Original sobie-venue.ejs
 ```
 <div class="card">
   <div class="card-body">
@@ -192,7 +192,7 @@ Original sobie-venue.ejs
 </div>
 <!-- end hotelTravelModal -->
 ```
-Updated sobie-venue.ejs
+- Updated sobie-venue.ejs
 ```
 <div class="card">
   <div class="card-body">
@@ -351,7 +351,7 @@ Updated sobie-venue.ejs
 <!-- end hotelTravelModal -->
 ```
 
-Added sobie-history.ejs
+- Added sobie-history.ejs
 ```
 <div class="card">
     <div class="card-body">
