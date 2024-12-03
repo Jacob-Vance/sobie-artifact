@@ -1,5 +1,5 @@
 # Jacob's Sobie Artifact
-index.ejs
+Original index.ejs
 ```
 <%- include('partials/sobie-start') %>
     <%- include('partials/sobie-nav') %>
@@ -31,6 +31,7 @@ index.ejs
 <%- include('partials/sobie-start') %>
 <%- include('partials/sobie-nav') %>
 ```
+Updated index.ejs
 ```
  <%- include('sobieCards/sobie-alert') %>
             <div class="row">
@@ -75,7 +76,7 @@ index.ejs
                 <%- include('partials/sobie-end') %>
 ```
 
-sobie-venue.ejs
+Original sobie-venue.ejs
 ```
 <div class="card">
   <div class="card-body">
@@ -189,6 +190,7 @@ sobie-venue.ejs
 </div>
 <!-- end hotelTravelModal -->
 ```
+Updated sobie-venue.ejs
 ```
 <div class="card">
   <div class="card-body">
@@ -347,7 +349,7 @@ sobie-venue.ejs
 <!-- end hotelTravelModal -->
 ```
 
-sobie-history.ejs
+Added sobie-history.ejs
 ```
 <div class="card">
     <div class="card-body">
